@@ -1,0 +1,23 @@
+.Ourlabel {
+    display: block;
+    text-align: center;
+    font-size:3em;
+    font-family: sans-serif;
+}
+
+#buttoncontainer {
+    text-align: center;
+}
+
+.buttons {
+    padding: 20px 30px;
+    border-radius: 30px;
+    font-size: 1em;
+    background-color: rgb(255, 178, 223);
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover {
+    background-color: rgb(255, 73, 179);
+}

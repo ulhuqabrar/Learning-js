@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+
+#container{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: black;
+    color: white;
+}
+
+button{
+    background-color: #ff5ac8;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ff23b6;
+}
+
+button:active{
+    background-color: #ffc4eb;
+}
+
+input{
+    font-size: 0.8em;
+    text-align: center;
+    width: 150px;
+    font-weight: bold;
+}
+
+#DiceResult{
+    margin: 20px;
+}
+
+#DiceImage img{
+    width: 150px;
+    margin: 5px;
+}
