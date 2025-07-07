@@ -59,3 +59,53 @@ function validemail(email){
 
 console.log(validemail("madmanmadara@naruto.com"))
 console.log(validemail("madmanmadaranaruto.com"))
+
+// Practice
+
+function naam(name){
+    console.log(`Hello ${name}`);
+}
+
+naam("Madara");
+naam("Naruto");
+
+function add2(x, y){
+    return x + y;
+}   
+
+console.log(add2(5, 6));
+
+function max(a, b, c){
+    if(a > b && a >c){
+        return a;           
+    }
+    else if (b>a && b> c){
+        return b;
+        }
+        else {
+            return c;       
+        }
+}
+
+console.log(max(5,8,12));
+
+
+function
+    is_even(nambar){
+        if (nambar%2 === 0){
+          return  console.log(`${nambar} is even`);
+        }
+        else {
+          return console.log(`Given number ${nambar} is odd`)
+        }
+    }
+    console.log(is_even(51))
+
+function factorial(n){
+    let result = 1;
+    for(let i = 1; i<=n; i++){
+        result *= i;
+    }
+    return result;
+}
+console.log(factorial(5))
