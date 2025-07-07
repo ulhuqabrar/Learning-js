@@ -9,12 +9,12 @@ function Menu(restaurant, times){
     console.log("Pizza");
     console.log("Burger");
     console.log("Sandwich");
-    console.log(`Ramen is famous at ${restaurant}`);
+    console.log(`Shawarma is famous at ${restaurant}`);
     console.log(`Tacos were ordered ${times} times today`);
 }
 
 // The information is filled here respectively
-Menu("Ichiraku", 25);
+Menu("Madara", 25);
 Menu("Naruto", 5);
 
 function add(x, y){
@@ -57,5 +57,5 @@ function validemail(email){
     }
 }
 
-console.log(validemail("madmanmadaranaruto.com"))
 console.log(validemail("madmanmadara@naruto.com"))
+console.log(validemail("madmanmadaranaruto.com"))
