@@ -9,7 +9,7 @@
     When something takes more time to complete, compiler automatically sontinues with the code, 
     we use callbacks then to say that it needs to be called back now
 */
-hello(left);
+hello(goodbye);
 
 
 function hello(callback){
